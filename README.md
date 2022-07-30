@@ -9,7 +9,7 @@ warehouse, these data stores hold a significant amount of consumer information a
 particular item details. By mining the data store from the data warehouse, more
 anomalies and common patterns can be discovered.
 
-##Approach:
+### Approach:
 
 We Have followed The classical machine learning tasks like Data Exploration, Data Cleaning,
 Feature Engineering, Model Building . we finalize the Random Forest regression model and deployed using flask and heroku
