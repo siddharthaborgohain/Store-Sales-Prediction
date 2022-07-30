@@ -17,3 +17,7 @@ Feature Engineering, Model Building . we finalize the Random Forest regression m
 
 ![image](https://user-images.githubusercontent.com/80624931/181878580-1ae3b043-1c89-45fb-9f63-528e88107762.png)
 
+
+![image](https://user-images.githubusercontent.com/80624931/181878990-78a5f2cc-dcaf-4882-b6ea-fd5fdcbd2aa8.png)
+
+
