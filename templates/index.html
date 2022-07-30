@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="color:red">
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2>Predictive analysis</h2>
+            <h3>Item_Weight</h3><br><input id="Item_Weight" name="Item_Weight" required="required">
+            <h3>Item_Fat_Content</h3><br><input id="Item_Fat_Content" name="Item_Fat_Content" required="required">
+            <h3>Item_Visibility</h3><input id="Item_Visibility" name="Item_Visibility" required="required">
+            <h3>Item_Type</h3><input id="Item_Type" name="Item_Type" required="required">
+            <h3>Item_MRP</h3><input id="Item_MRP" name="Item_MRP" required="required">
+            <h3>Outlet_Size</h3><input id="Outlet_Size" name="Outlet_Size" required="required">
+            <h3>Outlet_Location_Type</h3><input id="Outlet_Location_Type" name="Outlet_Location_Type" required="required">
+            <h3>Outlet_Type</h3><br><input id="Outlet_Type" name="Outlet_Type" required="required">
+
+            <br><br><button id="sub" type="submit ">Item Outlet Sales</button>
+            <br>
+name
+
+
+
+        </form>
+
+
+
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color: rgb(19, 207, 144);
+            text-align: center;
+            padding: 0px;
+        }
+        
+    </style>
+</body>
+
+</html>
